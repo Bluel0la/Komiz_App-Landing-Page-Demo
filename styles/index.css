@@ -5,71 +5,23 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #333;
+    overflow-x: hidden;
 }
 
 /* Index Section */
-.index_container{
-display: flex;
-height: 100vh;
+#index {
+    height: 100vh;
 }
 
-.content{
-flex-grow: 1;
-align-content: center;
-padding: 20px;
-color: gainsboro;
-}
-
-div.lead{
-    font-size: 1.5rem;
-}
-
-div.h2{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-.image{
-flex-grow: 1;
-align-content: center;
-justify-content: center;
-padding: 20px;
-margin-right: 50px;
-}
-
-.landing_img{
-max-width: 100%;
-height: auto;
-border-radius: 3px;
+.landing_img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
 }
 
 /* More info Section */
-#more_info{
-height: 100vh;
-padding: 2rem 0;
-}
-
-.header_1{
-display: flex;
-justify-content: center;
-font-size: 2rem;
-margin-bottom: 2rem;
-}
-
-.header_2{
-display: flex;
-justify-content: center;
-
-}
-
-.info_container{
-display: flex;
-flex-direction: column;
-}
-
-.benefits{
-display: flex;
-justify-content: center;
-padding: 20px;
+#more_info {
+    padding: 2rem 0;
 }
 
 .card img {
@@ -85,14 +37,16 @@ padding: 20px;
 .card-body {
     transition: transform 0.2s, box-shadow 0.2s;
     border-radius: 5px;
+    
 }
 
 .card-body:hover {
     transform: translateY(-10px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
 }
 
-/*Footer*/
+/* Footer */
 footer {
     padding: 1rem 0;
 }
